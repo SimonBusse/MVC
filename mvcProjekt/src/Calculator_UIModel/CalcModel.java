@@ -9,7 +9,7 @@ public class CalcModel {
     //... Member variable defining state of calculator.
     private BigInteger m_total;  // The total current value state.
     
-    //========================================================== constructor
+    //================================================================ constructor
     /** Constructor */
     public CalcModel() {
         reset();
@@ -21,7 +21,7 @@ public class CalcModel {
         m_total = new BigInteger(INITIAL_VALUE);
     }
     
-    //=========================================================== multiplyBy
+    //================================================================ multiplyBy
     /** Multiply current total by a number.
     *@param operand Number (as string) to multiply total by.
     */
